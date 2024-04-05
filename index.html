@@ -1,20 +1,19 @@
 <!DOCTYPE html>
-<html lang="en" w="jump()">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Flappy Bird</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body onclick="jump()">
     <div id="game">
-        <div id="game">
-            <div class="cloud" style="top: 50px; left: 100px;"></div>
-            <div class="cloud" style="top: 150px; left: 200px;"></div>
+        <div class="cloud" style="top: 50px; left: 100px;"></div>
+        <div class="cloud" style="top: 150px; left: 200px;"></div>
         <div id="block"></div>
         <div id="hole"></div>
         <div id="character"></div>
-
     </div>
+    <div id="score">Score: 0</div>
+    <script src="script.js"></script>
 </body>
-<script src="script.js"></script>
 </html>
